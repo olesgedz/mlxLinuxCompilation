@@ -54,6 +54,6 @@ clean:
 fclean: clean
 		rm -f $(NAME)
 		make -C libft fclean
-		make -C sources/minilibx_macos clean
+		make -C $(LIBMAKE)
 
 re: fclean all
