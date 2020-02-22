@@ -1,0 +1,3 @@
+/home/dovran/Документы/projects/fdf/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/dovran/Документы/projects/fdf/cmake-build-debug/CMakeFiles/fdf.dir
+/home/dovran/Документы/projects/fdf/cmake-build-debug/CMakeFiles/edit_cache.dir

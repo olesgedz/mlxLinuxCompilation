@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="fdf"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/dovran/Документы/projects/fdf/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/dovran/Документы/projects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/dovran/Документы/projects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/dovran/Документы/projects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/dovran/Документы/projects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/dovran/Документы/projects/fdf/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/dovran/Документы/projects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/dovran/Документы/projects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/dovran/Документы/projects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/dovran/Документы/projects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fdf">
+				<Option output="/home/dovran/Документы/projects/fdf/cmake-build-debug/fdf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dovran/Документы/projects/fdf/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dovran/Документы/projects/fdf/."/>
+					<Add directory="/home/dovran/Документы/projects/fdf/libft"/>
+					<Add directory="/home/dovran/Документы/projects/fdf/sources/minilibx"/>
+					<Add directory="/home/dovran/Документы/projects/fdf/sources/minilibx_macos"/>
+					<Add directory="/home/dovran/Документы/projects/fdf/sources/minilibx_mms_20191025_beta"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/dovran/Документы/projects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 fdf"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/dovran/Документы/projects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/dovran/Документы/projects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/dovran/Документы/projects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fdf/fast">
+				<Option output="/home/dovran/Документы/projects/fdf/cmake-build-debug/fdf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dovran/Документы/projects/fdf/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dovran/Документы/projects/fdf/."/>
+					<Add directory="/home/dovran/Документы/projects/fdf/libft"/>
+					<Add directory="/home/dovran/Документы/projects/fdf/sources/minilibx"/>
+					<Add directory="/home/dovran/Документы/projects/fdf/sources/minilibx_macos"/>
+					<Add directory="/home/dovran/Документы/projects/fdf/sources/minilibx_mms_20191025_beta"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/dovran/Документы/projects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 fdf/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/dovran/Документы/projects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/dovran/Документы/projects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/dovran/Документы/projects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/dovran/Документы/projects/fdf/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/dovran/Документы/projects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/dovran/Документы/projects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/dovran/Документы/projects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/dovran/Документы/projects/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/dovran/Документы/projects/fdf/errors.h">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/fdf.h">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/ft_read.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/get_next_line.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/get_next_line.h">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/grafon.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_atoi.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_bzero.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_isalnum.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_isalpha.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_isascii.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_isblank.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_iscntrl.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_isdigit.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_islower.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_isprint.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_isspace.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_isupper.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_itoa.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_lstadd.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_lstdel.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_lstdelone.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_lstiter.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_lstmap.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_lstnew.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_memalloc.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_memccpy.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_memchr.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_memcmp.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_memcpy.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_memdel.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_memmove.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_memset.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_putchar.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_putchar_fd.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_putendl.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_putendl_fd.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_putnbr.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_putnbr_fd.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_putstr.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_putstr_fd.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_strcat.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_strchr.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_strclr.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_strcmp.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_strcpy.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_strdel.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_strdup.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_strequ.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_striter.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_striteri.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_strjoin.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_strlcat.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_strlen.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_strmap.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_strmapi.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_strncat.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_strncmp.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_strncpy.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_strnequ.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_strnew.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_strnstr.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_strrchr.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_strsplit.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_strstr.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_strsub.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_strtrim.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_tolower.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/ft_toupper.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/libft/libft.h">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/main.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/mlx.h">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/mlx_clear_window.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/mlx_destroy_image.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/mlx_destroy_window.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/mlx_expose_hook.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/mlx_flush_event.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/mlx_get_color_value.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/mlx_get_data_addr.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/mlx_hook.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/mlx_init.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/mlx_int.h">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/mlx_int_anti_resize_win.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/mlx_int_do_nothing.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/mlx_int_get_visual.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/mlx_int_param_event.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/mlx_int_set_win_event_mask.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/mlx_int_str_to_wordtab.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/mlx_int_wait_first_expose.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/mlx_key_hook.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/mlx_lib_xpm.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/mlx_loop.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/mlx_loop_hook.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/mlx_mouse_hook.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/mlx_new_image.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/mlx_new_window.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/mlx_pixel_put.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/mlx_put_image_to_window.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/mlx_rgb.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/mlx_string_put.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/mlx_xpm.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/test/main.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/sources/minilibx/test/new_win.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/start.c">
+			<Option target="fdf"/>
+		</Unit>
+		<Unit filename="/home/dovran/Документы/projects/fdf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

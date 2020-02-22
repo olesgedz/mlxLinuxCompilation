@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dovran/Документы/projects/fdf/libft/ft_memccpy.c
+libft.h
+/home/dovran/Документы/projects/fdf/libft/libft.h
+
+/home/dovran/Документы/projects/fdf/libft/libft.h
+stdlib.h
+-
+unistd.h
+-
+string.h
+-
+
