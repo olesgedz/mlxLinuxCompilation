@@ -1,2 +1,2 @@
 # mlxLinuxCompilation
-#author of the code is @rfork 
+#code by @rfork 
