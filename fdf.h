@@ -12,7 +12,7 @@
 
 #ifndef FDF_H
 # define FDF_H
-
+//
 # include <sys/types.h>
 # include <sys/stat.h>
 # include <fcntl.h>
@@ -22,7 +22,7 @@
 # include <math.h>
 
 # include "libft/libft.h"
-# include "sources/minilibx/mlx.h"
+# include "mlx.h"
 # include "get_next_line.h"
 # include "errors.h"
 

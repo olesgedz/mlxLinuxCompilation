@@ -12,23 +12,6 @@
 
 #include "fdf.h"
 
-int		deal_key(int key, t_mlx *data)
-{
-	if (key != 51 && key != 53)
-		mlx_string_put(data->mlx_ptr, data->win_ptr, 320, 240, 16711680, ft_itoa(key));
-	else if (key == 51)
-		mlx_clear_window(data->mlx_ptr, data->win_ptr);
-	else if (key == 53)
-		exit(0);
-	return (0);
-}
-
-void	suicide(char *error_text)
-{
-	ft_putstr(error_text);
-	exit(0);
-}
-
 void	dda(t_mlx *data)
 {
 	t_point *p1;
@@ -59,6 +42,41 @@ void	dda(t_mlx *data)
 		Y += Yinc;
 	}
 }
+
+# ifdef __APPLE__
+int		deal_key(int key, t_mlx *data)
+{
+	mlx_clear_window(data->mlx_ptr, data->win_ptr);
+	char str[] = "Pressed key is ";
+	char * temp;
+	mlx_string_put(data->mlx_ptr, data->win_ptr, 320, 240, 16711680,  temp = ft_strjoin(str,ft_itoa(key)));
+	ft_strdel(&temp);
+	if (key == 53)
+		exit(0);
+	dda(data);
+	return (0);
+}
+#endif
+#ifdef __linux__
+int		deal_key(int key, t_mlx *data)
+{
+	mlx_clear_window(data->mlx_ptr, data->win_ptr);
+	char str[] = "Pressed key is ";
+	char * temp;
+	mlx_string_put(data->mlx_ptr, data->win_ptr, 320, 240, 16711680, temp = ft_strjoin(str,ft_itoa(key)));
+	ft_strdel(&temp);
+	if (key == 65307)
+		exit(0);
+	dda(data);
+	return (0);
+}
+#endif
+void	suicide(char *error_text)
+{
+	ft_putstr(error_text);
+	exit(0);
+}
+
 
 int		main(void)
 {
