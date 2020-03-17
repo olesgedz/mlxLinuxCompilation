@@ -1,5 +1,6 @@
 # mlxLinuxCompilation
-![C/C++ UBUNTU_BUILD](https://github.com/olesgedz/mlxLinuxCompilation/workflows/C/C++%20UBUNTU_BUILD/badge.svg) ![C/C++ MACOSX_BUILD](https://github.com/olesgedz/mlxLinuxCompilation/workflows/C/C++%20MACOSX_BUILD/badge.svg)
+[![C/C++ UBUNTU_BUILD](https://github.com/olesgedz/mlxLinuxCompilation/workflows/C/C++%20UBUNTU_BUILD/badge.svg)](https://github.com/olesgedz/mlxLinuxCompilation/actions?query=workflow%3A%22C%2FC%2B%2B+MACOSX_BUILD%22)
+[![C/C++ MACOSX_BUILD](https://github.com/olesgedz/mlxLinuxCompilation/workflows/C/C++%20MACOSX_BUILD/badge.svg)](https://github.com/olesgedz/mlxLinuxCompilation/actions?query=workflow%3A%22C%2FC%2B%2B+UBUNTU_BUILD%22)
 <hr>
 #code by @rfork 
 This repository was made as an example of  mlx graphic library compilation and project structure on Linux system.
