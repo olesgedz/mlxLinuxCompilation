@@ -1,4 +1,4 @@
-name: C/C++ CI
+name: C/C++ MACOSX_BUILD
 
 on:
   push:
@@ -13,7 +13,5 @@ jobs:
     
     steps:
     - uses: actions/checkout@v2
-    - name: configure
-      run: ./configure
     - name: make
       run: make
