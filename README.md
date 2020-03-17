@@ -1,5 +1,5 @@
 # mlxLinuxCompilation
-![C/C++ CI](https://github.com/olesgedz/mlxLinuxCompilation/workflows/C/C++%20CI/badge.svg?branch=master)
+![C/C++ UBUNTU_BUILD](https://github.com/olesgedz/mlxLinuxCompilation/workflows/C/C++%20UBUNTU_BUILD/badge.svg) ![C/C++ MACOSX_BUILD](https://github.com/olesgedz/mlxLinuxCompilation/workflows/C/C++%20MACOSX_BUILD/badge.svg)
 <hr>
 #code by @rfork 
 This repository was made as an example of  mlx graphic library compilation and project structure on Linux system.
